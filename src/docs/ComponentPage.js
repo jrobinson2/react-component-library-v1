@@ -27,3 +27,9 @@ const ComponentPage = ({ component }) => {
     </div>
   );
 };
+
+ComponentPage.propTypes = {
+  component: PropTypes.object.isRequired
+}
+
+export default ComponentPage;
